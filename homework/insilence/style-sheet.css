@@ -1,0 +1,100 @@
+html{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+.outcontianer{
+    margin-top: 50px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_tittle{
+    font-size: 30px;
+    margin: 30px;
+}
+.main-wrap{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.main-wrap img{
+    width: 100%;
+}
+.best{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best_tittle{
+    margin: 10px;
+    font-size: 20px;
+}
+.best-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+.best_img_container{
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.best_img_container p{
+    margin: 3px;
+}
+.product_tittle{
+    font: 20px;
+    font-weight:bolder;
+}
+.sale_per{
+    font-size: 13px;
+    color: red;
+    padding-left: 5px;
+}
+.best_img_container img{
+    width: 100%;
+}
+.article{
+    margin-top : 100px;
+}
+.article-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.aricle_img_container{
+    margin: 0;
+    width: 24%;
+}
+.aricle_img_container img{
+    width: 100%;
+}
+.aricle_img_container p{
+    margin: 2px;
+}
+.article_product_name{
+    font: 20px;
+    font-weight:bolder;
+}
+.prduct_date{
+    padding-bottom: 10px;
+}
+.product_contents{
+    color: gray;
+}
+.aricle_img_container button{
+    width: 50%;
+    height: 5%;
+    font-size: 0.25rem;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5%;
+}
